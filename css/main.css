@@ -1,0 +1,422 @@
+/****** GLOBAL STYLES ******/
+
+body {
+    background: url('../img/pompom background.jpg');
+    background-size: cover;
+    font-family: 'Marck Script', Helvetica, Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.homepage-hero {
+    width: 300px;
+    text-align: center;
+    color: slateblue;
+}
+
+header h1 {
+    font-family: 'Shantell Sans';
+    font-size: 100px;
+    color: slateblue;
+    clear: both;
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Shantell Sans';
+    color: slateblue;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.homepage-hero img {
+    width: 250px;
+    height: 250px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 40px;
+}
+
+.content-wrapper {
+    margin: 0 auto ;
+    overflow: auto;
+    width: 1200px;
+    font-size: 20px;
+}
+
+.content-wrapper p {
+    font-size: 24px;
+}
+
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#gallery-photos {
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+    overflow: auto;
+    background: lavender;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.block {
+    /* outline: 1px dashed darkgreen; */
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+    font-size: 26px;
+}
+
+.small-block {
+    padding: 20px 40px;
+    height: 200px;
+    padding: 20px 40px;
+    font-size: 26px;
+}
+
+.small-block img {
+    height: 200px;
+    width: 200px;
+}
+
+.small-block p {
+    font-size: 20px;
+}
+    
+
+.large-block {
+    padding: 70px 40px; 
+    height: 450px;
+    padding: 70px 40px;
+}
+
+.large-block img {
+    height: 220px;
+    width: 220px;
+}
+
+.center {
+    text-align: center;
+} 
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.dark-bg {
+    background: white;
+    color: black;
+}
+
+.highlight {
+    background: #FFF44F;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: none;
+}
+
+p {
+    font-size: 1em;
+}
+
+.title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    margin-top: 5px; 
+}
+
+.top-padding {
+    padding-top: 30px;
+}
+
+.block small-block img {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+
+}
+
+********************** Header Styles *********************
+/****** Header styles ******/
+
+
+header nav {
+    width: 700px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    padding-left: 30px;
+    color: purple;
+    font-size: 18px;
+}
+
+/****** Contact Styles ******/
+#contact  {
+    background: #f9e9e9;
+    margin-left: 50px;
+    margin-right: 50px auto;
+}
+
+#contact .content-wrapper {
+    margin: 0 auto ;
+    overflow: auto;
+    width: 1200px;
+}
+
+
+#contact .contact-image {
+    float: left;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#contact #contact-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 50px;
+}
+
+#contact .contact-info {
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-right: 30px 0;
+}
+
+contact h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+contact #email-header {
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 5px 0;
+}
+
+#contact #envelope {
+    padding-right: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #5e5d5e;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+
+    /****** Gallery Page Header Styles ******/
+header .extra-hero {
+    width: 30px;
+    background: url("../img/pompom background.jpg")
+}
+
+.extra-hero nav {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+/****** Gallery Page Styles ******/
+h1 {
+    margin-left: 500px;
+    
+}
+
+.content-wrapper img {
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background:#5e5d5e;
+    padding-left: 60px;
+    padding-right: 50px;
+    background: none;
+}
+
+#section .items {
+    width: 10px;
+    height: 5px;
+    background: grey;
+}
+
+#section .block-1 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+    width: 900px;
+}
+
+.block-1 img {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: grey;    
+}
+
+#section .block-2 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#section .block-3 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#section .block-4 right {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+/****** Contact Styles - Gallery Page ******/
+#contact  {
+    background: #f9e9e9;
+    width: 999px;
+    margin-left: 100px;
+}
+
+#contact .content-wrapper {
+    padding-top: 0;
+}
+
+#contact .contact-image {
+    float: left;
+    width: 100px;
+    margin-top: 30px;
+}
+
+#contact #contact-img {
+    width: 240px;
+    height: 200px;
+    margin-right: 920px;
+    box-sizing: border-box;
+}
+
+#contact .contact-info {
+    width: 300px;
+    padding-left: 100px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+p {
+    
+    margin-right: 0;
+    font-size: 30px;
+}
+
+contact h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+contact #email-header {
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 5px 0;
+}
+
+#contact #envelope {
+    margin-left: 900px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #5e5d5e;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+/****** Shop Styles ******/
