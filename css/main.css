@@ -1,5 +1,4 @@
 /****** GLOBAL STYLES ******/
-
 body {
     background: url('../img/pompom background.jpg');
     background-size: cover;
@@ -71,23 +70,17 @@ header h3 {
     font-size: 24px;
 }
 
-#gallery-photos {
-    width: 1200px;
-    height: 850px;
-    margin: 50px auto;
-    overflow: auto;
-    background: lavender;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 26px;
+p {
+    font-family: Marck Script', Helvetica, Arial, sans-serif;
 }
+
+
 
 .block {
     /* outline: 1px dashed darkgreen; */
     float: left;
     box-sizing: border-box;
-    width: 400px;
+    width: 900px;
     font-size: 26px;
 }
 
@@ -133,7 +126,7 @@ header h3 {
 
 .dark-bg {
     background: white;
-    color: black;
+    color: grey;
 }
 
 .highlight {
@@ -176,8 +169,6 @@ p {
 
 ********************** Header Styles *********************
 /****** Header styles ******/
-
-
 header nav {
     width: 700px;
     float: right;
@@ -194,7 +185,7 @@ nav ul li{
 nav ul li a {
     text-transform: uppercase;
     padding-left: 30px;
-    color: purple;
+    color: midnightblue;
     font-size: 18px;
 }
 
@@ -278,52 +269,112 @@ contact #email-header {
 }
 
 
-    /****** Gallery Page Header Styles ******/
-header .extra-hero {
-    width: 30px;
-    background: url("../img/pompom background.jpg")
+/****** Gallery  Styles ******/
+body {
+    background: url('../img/pompom background.jpg');
+    background-size: cover;
+    font-family: 'Marck Script', Helvetica, Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
 }
 
-.extra-hero nav {
+
+.homepage-hero {
+    width: 300px;
+    text-align: center;
+    color: slateblue;
+}
+
+header h1 {
+    font-family: 'Shantell Sans';
+    font-size: 100px;
+    color: slateblue;
+    clear: both;
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Shantell Sans';
+    color: slateblue;
+    font-size: 60px;
     margin-left: 200px;
     margin-right: 200px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+header h3 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
 
-/****** Gallery Page Styles ******/
+.homepage-hero img {
+    width: 250px;
+    height: 250px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 40px;
+}
 h1 {
     margin-left: 500px;
     
 }
 
+h3 {
+    font-family: 'Shantell Sans';
+    font-style: ;
+    
+}
+
 .content-wrapper img {
-    margin-left: 420px;
-    margin-right: 420px;
+    margin-left: 340px;
+    margin-right: 340px;
     margin-top: 0;
     margin-bottom: 10px;
-    background:#5e5d5e;
     padding-left: 60px;
     padding-right: 50px;
     background: none;
+    height: 200px;
+    width: 200px;
+}
+
+#gallery-photos {
+    margin-right: 250px;
+    margin-left: 200px;
+    background: grey;
+    background-position-y: center;
 }
 
 #section .items {
     width: 10px;
     height: 5px;
-    background: grey;
+    background:;
 }
 
-#section .block-1 {
-    padding: 20px 40px;
+#section .block-1 { 
     height: 210px;
     padding: 20px 40px;
     width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
 }
 
 .block-1 img {
     margin-left: 100px;
-    margin-right: 100px;
-    background-color: grey;    
+    margin-right: 200px;
+    background-color: ;
+    padding-left: 20px;
+    padding-right: 20px;    
 }
 
 #section .block-2 {
@@ -420,3 +471,5 @@ contact #email-header {
 }
 
 /****** Shop Styles ******/
+
+
