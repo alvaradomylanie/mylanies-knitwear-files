@@ -347,6 +347,12 @@ h3 {
     width: 200px;
 }
 
+#gallery .content-wrapper {
+    font-family: 'Shantell Sans';
+    color: deeppink;  
+}
+
+
 #gallery-photos {
     margin-right: 250px;
     margin-left: 200px;
@@ -471,5 +477,137 @@ contact #email-header {
 }
 
 /****** Shop Styles ******/
+body {
+    background: url('../img/pompom background.jpg');
+    background-size: cover;
+    font-family: 'Marck Script', Helvetica, Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
 
+
+.homepage-hero {
+    width: 300px;
+    text-align: center;
+    color: slateblue;
+}
+
+header h1 {
+    font-family: 'Shantell Sans';
+    font-size: 100px;
+    color: slateblue;
+    clear: both;
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Shantell Sans';
+    color: slateblue;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.homepage-hero img {
+    width: 250px;
+    height: 250px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 40px;
+}
+h1 {
+    margin-left: 500px;
+    
+}
+
+h3 {
+    font-family: 'Shantell Sans';
+    font-style: ;
+    
+}
+
+.content-wrapper p{
+    font-family: 'Shantell Sans';
+    color: deeppink;  
+}
+
+.content-wrapper shop-gallery {
+
+}
+
+.content-wrapper img {
+    margin-left: 340px;
+    margin-right: 340px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+    background: none;
+    height: 200px;
+    width: 200px;
+}
+
+#shop-gallery {
+    margin-right: 250px;
+    margin-left: 200px;
+    background: grey;
+    background-position-y: center;
+}
+
+#section .items {
+    width: 10px;
+    height: 5px;
+    background:;
+}
+
+#section .block-1 { 
+    height: 210px;
+    padding: 20px 40px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+}
+
+.block-1 img {
+    margin-left: 100px;
+    margin-right: 200px;
+    background-color: ;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+#section .block-2 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#section .block-3 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#section .block-4 right {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
 
