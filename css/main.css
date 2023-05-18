@@ -68,14 +68,15 @@ header h3 {
 #about {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
+    color: black;
 }
 
-p {
-    font-family: Marck Script', Helvetica, Arial, sans-serif;
+#about p {
+    color: black;
+    font-family: Arial;
+    
+    
 }
-
-
-
 .block {
     /* outline: 1px dashed darkgreen; */
     float: left;
@@ -401,80 +402,7 @@ h3 {
     padding: 20px 40px;
 }
 
-/****** Contact Styles - Gallery Page ******/
-#contact  {
-    background: #f9e9e9;
-    width: 999px;
-    margin-left: 100px;
-}
 
-#contact .content-wrapper {
-    padding-top: 0;
-}
-
-#contact .contact-image {
-    float: left;
-    width: 100px;
-    margin-top: 30px;
-}
-
-#contact #contact-img {
-    width: 240px;
-    height: 200px;
-    margin-right: 920px;
-    box-sizing: border-box;
-}
-
-#contact .contact-info {
-    width: 300px;
-    padding-left: 100px;
-    margin-left: 200px;
-    font-size: 40px;
-}
-
-p {
-    
-    margin-right: 0;
-    font-size: 30px;
-}
-
-contact h3 {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-}
-
-contact #email-header {
-    margin-bottom: 5px;
-}
-
-#contact #socialmedia-header {
-    margin: 20px 0 5px 0;
-}
-
-#contact #envelope {
-    margin-left: 900px;
-}
-
-#contact a {
-    text-decoration: none;
-    color: #5e5d5e;
-    font-size: 24px;
-    line-height: 36px;
-}
-
-#contact ul {
-    margin-top: 0;
-    padding-left: 0;
-}
-
-#contact ul li {
-    display: inline-block;
-}
-
-#contact ul img {
-    padding-right: 40px;
-}
 
 /****** Shop Styles ******/
 body {
@@ -542,17 +470,27 @@ h3 {
     
 }
 
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    padding-left: 30px;
+    color: midnightblue;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
 .content-wrapper p{
     font-family: 'Shantell Sans';
-    color: deeppink;  
+    font-size: 20px;
+    color: deeppink;
 }
 
-.content-wrapper shop-gallery {
-
-}
 
 .content-wrapper img {
-    margin-left: 340px;
+    margin-left: 300px;
     margin-right: 340px;
     margin-top: 0;
     margin-bottom: 10px;
@@ -563,12 +501,15 @@ h3 {
     width: 200px;
 }
 
-#shop-gallery {
-    margin-right: 250px;
-    margin-left: 200px;
-    background: grey;
-    background-position-y: center;
+.shop-gallery {
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+
 
 #section .items {
     width: 10px;
@@ -609,5 +550,97 @@ h3 {
     padding: 20px 40px;
     height: 210px;
     padding: 20px 40px;
+}
+
+/****** Contact Styles - Shop Page ******/
+#contact  {
+    background: #f9e9e9;
+    width: 999px;
+    margin-left: 50px;
+}
+
+#contact .content-wrapper {
+    padding-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contact .contact-image {
+    float: left;
+    width: 50px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+#contact #contact-img {
+    width: 5px;
+    height: 10px;
+    margin-right: 920px;
+    box-sizing: border-box;
+}
+
+#contact img {
+    width: 30px;
+    height: 20px;
+    margin-left: 200px;
+    display: inline;
+    
+}
+
+#contact a {
+    display: inline-block;
+}
+
+
+
+#contact .contact-info {
+    padding-left: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+
+#contact h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#contact #email-header {
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 5px 0;
+}
+
+#contact #envelope {
+    width: 5px;
+    height: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #5e5d5e;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+    line-height: 5px;
 }
 
