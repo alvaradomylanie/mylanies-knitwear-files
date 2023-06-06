@@ -476,7 +476,7 @@ nav ul li{
 
 nav ul li a {
     text-transform: uppercase;
-    padding-left: 30px;
+    padding-left: 15px;
     color: midnightblue;
     font-size: 18px;
     margin-left: 100px;
@@ -485,7 +485,7 @@ nav ul li a {
 .content-wrapper p{
     font-family: 'Shantell Sans';
     font-size: 20px;
-    color: deeppink;
+    color: black;
 }
 
 
@@ -497,8 +497,13 @@ nav ul li a {
     padding-left: 60px;
     padding-right: 50px;
     background: none;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
+}
+
+button {
+    background-color: deeppink;
+    border-radius: 12px;
 }
 
 .shop-gallery {
@@ -506,8 +511,10 @@ nav ul li a {
     margin-left: auto;
     background: white;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px;   
 }
+
+
 
 
 
